@@ -1,0 +1,234 @@
+/* ------------------------ */
+/* ---- GLOBAL STYLING ---- */
+/* ------------------------ *
+
+** <Client Name>
+*	<Project Name>
+
+** TOC 
+	1. CSS Reset
+	2. General
+	3. Header
+	4. Footer
+	5. Content */
+/* 1. CSS RESET
+------------------------------------------------ */
+/* http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  background-color: #31a3e6; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* 2. GENERAL
+------------------------------------------------ */
+/* ::::: Helpers ::::: */
+.ir {
+  position: relative; }
+
+.ir span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: no-repeat 0 0; }
+
+.clear {
+  clear: both; }
+
+/* . FONTS
+------------------------------------------------ */
+@font-face {
+  font-family: gotham-bold;
+  src: url("gotham-bold.ttf"); }
+
+@font-face {
+  font-family: gotham-light;
+  src: url("gotham-light.ttf"); }
+
+p {
+  color: #fff;
+  font-family: gotham-light;
+  font-size: 20px;
+  line-height: 25px; }
+
+p span {
+  font-family: gotham-bold; }
+
+textarea {
+  resize: none; }
+
+/* 3. HEADER
+------------------------------------------------ */
+/* 4. FOOTER
+------------------------------------------------ */
+/* 5. CONTENT
+------------------------------------------------ */
+#container {
+  height: 100%;
+  margin: auto;
+  width: 1200px; }
+
+#hello {
+  margin-top: 400px;
+  text-align: center; }
+
+h1 {
+  color: #fff;
+  font-size: 148px;
+  font-family: gotham-bold; }
+
+h2 {
+  color: #fff;
+  font-size: 50px;
+  font-family: gotham-bold; }
+
+h3 {
+  color: #fff;
+  font-size: 27px;
+  font-family: gotham-light; }
+
+.underline {
+  text-decoration: underline;
+  font-size: 14px;
+  margin-top: 70px; }
+
+#day-1-left-column {
+  width: 290px;
+  height: 100%;
+  margin: 190px 0 0 220px;
+  float: left; }
+
+#day-1-right-column {
+  width: 490px;
+  height: 100%;
+  margin-top: 190px;
+  float: left; }
+
+.black-button {
+  background-color: #000;
+  color: #fff;
+  font-family: gotham-light;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 10px;
+  text-decoration: none;
+  border: none; }
+
+#login {
+  margin: 320px 0 0 310px;
+  width: 470px;
+  height: 260px; }
+
+.login-arrow {
+  float: left;
+  height: 130px;
+  margin-top: 30px;
+  width: 125px; }
+
+input[type="text"], input[type="password"] {
+  margin-top: 10px;
+  padding: 10px;
+  width: 275px;
+  font-family: gotham-light;
+  color: #000;
+  font-size: 20px; }
+
+#login-form {
+  float: left;
+  height: 260px;
+  width: 300px;
+  margin-left: 20px; }
+
+input[type="submit"] {
+  float: right;
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+#profile-form {
+  width: 955px;
+  height: 610px;
+  margin-left: 125px;
+  background-color: purple; }
+
+#three-columns-left {
+  background-color: red;
+  float: left;
+  height: 380px;
+  width: 405px; }
+
+#three-columns-center {
+  background-color: blue;
+  float: left;
+  height: 380px;
+  width: 180px; }
+
+#three-columns-right {
+  float: left;
+  background-color: green;
+  height: 380px;
+  width: 370px; }
+
+#profile p {
+  font-size: 16px;
+  margin-top: 20px; }
+
+#three-columns-left input[type="text"] {
+  padding: 4px;
+  width: 380px;
+  margin-top: 0px;
+  height: 30px; }
+
+#three-columns-center input[type="text"] {
+  padding: 4px;
+  width: 160px;
+  margin-top: 0px;
+  height: 30px; }
+
+#three-columns-right input[type="text"] {
+  padding: 4px;
+  width: 205px;
+  margin-top: 0px;
+  height: 30px; }
+
+#footer-input-zone {
+  float: left;
+  width: 800px;
+  height: 100px;
+  background-color: blue; }
+
+#footer-input-zone input[type="text"] {
+  padding: 4px;
+  width: 200px;
+  margin-top: 0px;
+  height: 30px;
+  float: left; }
