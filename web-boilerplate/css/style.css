@@ -92,6 +92,17 @@ textarea {
 ------------------------------------------------ */
 /* 5. CONTENT
 ------------------------------------------------ */
+#top {
+  height: 105px;
+  margin: auto;
+  width: 1200px; }
+
+.top_left {
+  padding: 40px 0  0 0;
+  float: left;
+  height: 50px;
+  width: 300px; }
+
 #container {
   height: 100%;
   margin: auto;
@@ -108,13 +119,48 @@ h1 {
 
 h2 {
   color: #fff;
-  font-size: 50px;
-  font-family: gotham-bold; }
+  font-size: 55px;
+  font-family: gotham-bold;
+  margin: 30px 0  30px 0; }
 
 h3 {
   color: #fff;
   font-size: 27px;
   font-family: gotham-light; }
+
+h3 span {
+  font-family: gotham-bold; }
+
+h4 {
+  color: #fff;
+  font-size: 55px;
+  font-family: gotham-light;
+  margin: 30px 0  30px 0; }
+
+h4 span {
+  font-family: gotham-bold; }
+
+header {
+  border-bottom: 1px solid #fff;
+  width: 100%; }
+
+#top_user_info {
+  float: right;
+  width: 500px;
+  height: 100px; }
+
+#top_user_info p {
+  margin: 40px;
+  position: absolute; }
+
+#top_user_info img {
+  margin: 30px 0 0 200px;
+  position: absolute; }
+
+#page_number {
+  float: right;
+  margin: -100px 0 0 1000px;
+  position: absolute; }
 
 .underline {
   text-decoration: underline;
@@ -142,6 +188,9 @@ h3 {
   padding: 10px;
   text-decoration: none;
   border: none; }
+
+#profile-form .black-button {
+  margin-top: 50px; }
 
 #login {
   margin: 320px 0 0 310px;
@@ -176,26 +225,35 @@ input[type="submit"] {
 
 #profile-form {
   width: 955px;
-  height: 610px;
-  margin-left: 125px;
-  background-color: purple; }
+  height: 580px;
+  margin-left: 125px; }
+
+#three-columns-left select, #three-columns-right select {
+  border: none;
+  font-family: gotham-light;
+  font-size: 20px;
+  height: 40px;
+  display: inline-block;
+  padding: 10px;
+  outline: none;
+  width: 390px; }
+
+#three-columns-right select {
+  width: 380px; }
 
 #three-columns-left {
-  background-color: red;
   float: left;
-  height: 380px;
+  height: 360px;
   width: 405px; }
 
 #three-columns-center {
-  background-color: blue;
   float: left;
-  height: 380px;
+  height: 360px;
   width: 180px; }
 
 #three-columns-right {
   float: left;
-  background-color: green;
-  height: 380px;
+  height: 360px;
   width: 370px; }
 
 #profile p {
@@ -203,10 +261,10 @@ input[type="submit"] {
   margin-top: 20px; }
 
 #three-columns-left input[type="text"] {
-  padding: 4px;
-  width: 380px;
+  height: 30px;
   margin-top: 0px;
-  height: 30px; }
+  padding: 4px;
+  width: 380px; }
 
 #three-columns-center input[type="text"] {
   padding: 4px;
@@ -215,20 +273,45 @@ input[type="submit"] {
   height: 30px; }
 
 #three-columns-right input[type="text"] {
+  height: 30px;
   padding: 4px;
-  width: 205px;
   margin-top: 0px;
-  height: 30px; }
+  width: 205px; }
 
 #footer-input-zone {
   float: left;
-  width: 800px;
   height: 100px;
-  background-color: blue; }
+  width: 800px; }
 
 #footer-input-zone input[type="text"] {
-  padding: 4px;
-  width: 200px;
-  margin-top: 0px;
+  float: left;
   height: 30px;
-  float: left; }
+  margin-top: 0px;
+  padding: 4px;
+  width: 200px; }
+
+#profile_twitter {
+  float: left;
+  height: 100px;
+  width: 230px; }
+
+#profile_other {
+  float: left;
+  height: 100px;
+  width: 400px; }
+
+#main_questions {
+  height: 105px;
+  margin: auto;
+  width: 1200px; }
+
+#main_questions input[type="radio"], #question2, #question3, #question4, #question5, #question6, #question7, #question8, #question9 {
+  display: none; }
+
+#main_questions label:hover {
+  cursor: pointer;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+  filter: alpha(opacity=75);
+  -khtml-opacity: 0.75;
+  -moz-opacity: 0.75;
+  opacity: 0.75; }
