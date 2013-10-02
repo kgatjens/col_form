@@ -6,6 +6,6 @@
 	<script>
 		window.jQuery || document.write('<script src="js/libs/jquery-1.8.3.min.js"><\/script>')
 	</script>
-	<script src="js/global.min.js"></script>
+	<script src="js/global.js"></script>
 </body>
 </html>
